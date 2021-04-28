@@ -1,6 +1,6 @@
 {
   "name": "@cloudduty/perkakas-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Javascript common tools",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
