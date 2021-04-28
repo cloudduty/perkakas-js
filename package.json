@@ -1,8 +1,12 @@
 {
   "name": "@cloudduty/perkakas-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript common tools",
-  "main": "index.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
@@ -43,6 +47,9 @@
   },
   "dependencies": {
     "date-fns": "^2.21.1"
+  },
+  "directories": {
+    "lib": "lib"
   },
   "engines": {
     "node": ">= 14.0.0"
