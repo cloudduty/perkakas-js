@@ -1,4 +1,3 @@
-
 type Currency = 'IDR' | 'USD';
 
 const currencies: { [key: string]: string } = {
@@ -12,6 +11,6 @@ export const convertCurrency = (value: any, type: Currency = 'IDR'): string => {
 
   return new Intl.NumberFormat(locale, {
     style: 'currency',
-    currency: type
+    currency: type,
   }).format(float);
 };
