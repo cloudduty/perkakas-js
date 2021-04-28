@@ -1,0 +1,24 @@
+{
+  "name": "@cloudduty/perkakas-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudduty/perkakas-js.git"
+  },
+  "keywords": [
+    "javascript",
+    "common",
+    "tools"
+  ],
+  "author": "cloudduty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cloudduty/perkakas-js/issues"
+  },
+  "homepage": "https://github.com/cloudduty/perkakas-js#readme"
+}
